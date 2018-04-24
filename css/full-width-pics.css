@@ -4,8 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+html {
+    height: 100%;
+}
+
 body {
+    position: relative;
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    min-height: 95%;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
 
 .image-bg-fluid-height,
@@ -19,22 +35,26 @@ body {
 
 .image-bg-fluid-height-main {
 	background: url('../images/main_poster_1800.jpg') no-repeat center center scroll;
+    background-size: 100%;
     padding: 320px 0;
 }
 
 .image-bg-fixed-height-3 {
 	background: url('../images/home_3.jpg') no-repeat top center scroll;
+    background-size: 100%;
     height: 700px;
 }
 
 
 .image-bg-fixed-height-2 {
     background: url('../images/home_2.jpg') no-repeat center center scroll;
+    background-size: 100%;
     height: 700px;
 }
 
 .image-bg-fixed-height-1 {
     background: url('../images/home_1.jpg') no-repeat center center scroll;
+    background-size: 100%;
     height: 700px;
 }
 
@@ -61,8 +81,10 @@ section {
     font-size: 1.5em;
 }
 
-footer {
-    margin: 50px 0;
+@media(max-width:992px) {
+    .image-bg-fixed-height-1, .image-bg-fixed-height-2, .image-bg-fixed-height-3 {
+        height: 550px;
+    }
 }
 
 @media(max-width:768px) {
@@ -76,9 +98,20 @@ footer {
     }
 
     .image-bg-fluid-height-main {
-        padding: 120px 0;
+        padding: 60px 0;
+    }
+
+    .image-bg-fixed-height-1, .image-bg-fixed-height-2, .image-bg-fixed-height-3 {
+        height: 350px;
     }
 }
+
+@media(max-width:500px) {
+    .image-bg-fixed-height-1, .image-bg-fixed-height-2, .image-bg-fixed-height-3 {
+        height: 300px;
+    }
+}
+
 
 .card-body {
     padding: 10px;
