@@ -17,20 +17,25 @@ body {
     -o-background-size: cover;
 }
 
-.image-bg-fluid-height-top {
-	background: url('../images/20429982_1771769656196912_8899182887933461694_p.jpg') no-repeat center center scroll;
-    padding: 100px 0;
+.image-bg-fluid-height-main {
+	background: url('../images/main_poster_1800.jpg') no-repeat center center scroll;
+    padding: 320px 0;
 }
 
-.image-bg-fixed-height-mid {
-	background: url('../images/20431309_1771770099530201_1326541857294120977_p.jpg') no-repeat center center scroll;
-    height: 450px;
+.image-bg-fixed-height-3 {
+	background: url('../images/home_3.jpg') no-repeat top center scroll;
+    height: 700px;
 }
 
 
-.image-bg-fixed-height-bot {
-    background: url('../images/20430060_1771769792863565_5168947653326003138_p.jpg') no-repeat center center scroll;
-    height: 450px;
+.image-bg-fixed-height-2 {
+    background: url('../images/home_2.jpg') no-repeat center center scroll;
+    height: 700px;
+}
+
+.image-bg-fixed-height-1 {
+    background: url('../images/home_1.jpg') no-repeat center center scroll;
+    height: 700px;
 }
 
 .img-center {
@@ -43,15 +48,17 @@ section {
 
 .section-heading {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 4.2em;
 }
 
 .section-lead {
     margin: 30px 0;
+    font-size: 1.8em;
 }
 
 .section-paragraph {
     margin: 30px 0;
+    font-size: 1.5em;
 }
 
 footer {
@@ -65,6 +72,47 @@ footer {
     }
 
     .section-heading {
-        font-size: 2em;
+        font-size: 2.2em;
     }
+
+    .image-bg-fluid-height-main {
+        padding: 120px 0;
+    }
+}
+
+.card-body {
+    padding: 10px;
+}
+
+
+.box-shadow {
+    margin: 10px;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.modal-content {
+    height: 500px;
+}
+
+.modal-dialog-centered {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+}
+
+.map-link{
+    margin-top: 10px;
+}
+
+.text-muted{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.tickets-menu-link{
+    margin-top: 7px;
 }
