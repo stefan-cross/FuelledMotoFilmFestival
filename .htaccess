@@ -1,6 +1,1 @@
- <Directory /home/fuelledm/public_html/>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride All
-        Order allow,deny
-        allow from all
- </Directory>
+allow from all
