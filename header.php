@@ -19,10 +19,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>Fuelled Moto Film Festival - 2018</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
+    <link href="/css/full-width-pics.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,22 +50,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Fuelled Moto Film Festival</a>
+                <a class="navbar-brand" href="index.php">Fuelled Moto Film Festival</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">About</a>
+                        <a href="index.php">About</a>
                     </li>
                     <li>
-                        <a href="programme.html">Programme</a>
+                        <a href="programme.php">Programme</a>
                     </li>
                     <li>
-                        <a href="venues.html">Venues</a>
+                        <a href="venues.php">Venues</a>
                     </li>
                 </ul>
-                      <a href="tickets.html">
+                      <a href="tickets.php">
                         <button type="button" class="btn btn-success tickets-menu-link">TICKETS</button>
                     </a>
             </div>

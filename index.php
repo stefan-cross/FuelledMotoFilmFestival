@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php  include('header.php') ?>
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <header class="image-bg-fluid-height-main">
@@ -20,11 +20,11 @@
         </div>
     </section>
 
-    <!-- Fixed Height Image Aside -->
+        <!-- Fixed Height Image Aside -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <aside class="image-bg-fixed-height-3"></aside>
 
-    <!-- Content Section -->
+        <!-- Content Section -->
     <section>
         <div class="container">
             <div class="row">
@@ -37,7 +37,7 @@
         <!-- /.container -->
     </section>
 
-    <!-- Fixed Height Image Aside -->
+        <!-- Fixed Height Image Aside -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <aside class="image-bg-fixed-height-2"></aside>
 
@@ -54,36 +54,36 @@
         <!-- /.container -->
     </section>
 
-    <aside class="image-bg-fixed-height-1"></aside>
+        <aside class="image-bg-fixed-height-1"></aside>
 
     <!-- Content Section -->
     <section>
         <div class="container">
             <div class="row">
                 <!--<div class="col-lg-12">-->
-                <!--<h1 class="section-heading">Contact us</h1>-->
-                <!--<p class="lead section-lead">Want to help out?! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-                <!--<p class="section-paragraph">Or suggestions welcome... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>-->
+                    <!--<h1 class="section-heading">Contact us</h1>-->
+                    <!--<p class="lead section-lead">Want to help out?! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
+                    <!--<p class="section-paragraph">Or suggestions welcome... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>-->
                 <!--</div>-->
                 <!--<div class="col-md-offset-2">-->
-                <!--<div class="col-lg-10">-->
-                <!--<form>-->
-                <!--<div class="col-lg-5">-->
-                <!--<input type="text" class="form-control" placeholder="Name">-->
-                <!--</div>-->
-                <!--<div class="col-lg-5">-->
-                <!--<input type="text" class="form-control" placeholder="Email">-->
-                <!--</div>-->
-                <!--<div class="col-lg-10">-->
-                <!--<textarea class="form-control" rows="3" placeholder="Message..."></textarea>-->
-                <!--<button type="submit" class="btn btn-primary">Submit</button>-->
-                <!--</div>-->
+                    <!--<div class="col-lg-10">-->
+                    <!--<form>-->
+                    <!--<div class="col-lg-5">-->
+                        <!--<input type="text" class="form-control" placeholder="Name">-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-5">-->
+                        <!--<input type="text" class="form-control" placeholder="Email">-->
+                    <!--</div>-->
+                    <!--<div class="col-lg-10">-->
+                        <!--<textarea class="form-control" rows="3" placeholder="Message..."></textarea>-->
+                        <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+                    <!--</div>-->
                 <!--</form>-->
                 <!--</div>-->
-                <!--</div>-->
+            <!--</div>-->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
-<?php include 'footer.php' ?>
+<?php  include('footer.php') ?>
