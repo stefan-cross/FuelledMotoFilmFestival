@@ -7,6 +7,60 @@
 				<div class="col-lg-12">
 					<h1 class="section-heading">2018 Programme</h1>
 					<p class="lead section-lead">We've hand picked some of the best short and feature films. Documentaries, comedies and animation feature in this years festival line up.</p>
+					<table class="col-lg-10 table table-hover-green">
+						<thead>
+						<tr>
+							<th scope="col">DATE</th>
+							<th scope="col">SHOWING</th>
+							<th scope="col">SHORT FILM</th>
+							<th scope="col">FEATURE FILM</th>
+							<th scope="col">TIME</th>
+							<th scope="col">VENUE</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th scope="row">FRI 24th AUG OPENING</th>
+							<td>1ST SHOWING</td>
+							<td>Oil in the Blood</td>
+							<td>Halfway to Nowhere</td>
+							<td>7:00 PM</td>
+							<td>The Loft</td>
+						</tr>
+						<tr>
+							<th scope="row">SATURDAY 25th AUG</th>
+							<td>1ST SHOWING</td>
+							<td>Chenai to Pondicherry</td>
+							<td>50 years of Motorcross</td>
+							<td>2:00 PM</td>
+							<td>The Loft</td>
+						</tr>
+						<tr>
+							<th scope="row">SATURDAY 25th AUG</th>
+							<td>2ND SHOWING</td>
+							<td>The Edge</td>
+							<td>How to be Deadly</td>
+							<td>7:00 PM</td>
+							<td>Bolt</td>
+						</tr>
+						<tr>
+							<th scope="row">SUNDAY 26th AUG</th>
+							<td>1ST SHOWING</td>
+							<td>Shinya Kimura</td>
+							<td>Why We Ride</td>
+							<td>2:00 PM</td>
+							<td>LONDON FIELDS BREWERY</td>
+						</tr>
+						<tr>
+							<th scope="row">SUNDAY 26th AUG</th>
+							<td>2ND SHOWING</td>
+							<td>Ramble on Brother</td>
+							<td>Three Wheeling</td>
+							<td>7:00 PM</td>
+							<td>LONDON FIELDS BREWERY</td>
+						</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<!-- /.row -->
@@ -175,5 +229,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
 <?php include('footer.php') ?>
